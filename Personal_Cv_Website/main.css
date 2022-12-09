@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+i {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.container {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: linear-gradient(160deg, #454545 0%, #acacac 100%);
+  color: #fff;
+}
+
+.header {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  flex-direction: column;
+}
+
+a.ghost:hover{
+  color:#454545;
+  background-position: 0 -100%;
+  box-shadow: 0 15px 25px 5px rgba(1,1,1,0.3);
+}
+ 
+a.ghost.inverted:hover{
+  color:white;
+  background-position: 0 -100%;
+  box-shadow: 0 15px 25px 5px rgba(1,1,1,0.3);
+}
+
+a.ghost{
+  display:block;
+  background-color:transparent;
+  background-image: linear-gradient(to bottom,transparent 50%, white 50%);
+  background-size: 100% 200%;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  color:white;
+  border:1px solid white;
+  border-radius:50px;
+  padding:10px 40px;
+  text-decoration:none;
+  transition:background-position 0.6s,color 0.6s,box-shadow 0.6s,margin-top 0.6s;
+}
+ 
+a.ghost.inverted{
+  background-image: linear-gradient(to bottom,transparent 50%, #454545 50%);
+  color:#454545;
+  border:1px solid #454545;
+}
+
+
+

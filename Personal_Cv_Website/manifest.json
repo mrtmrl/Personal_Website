@@ -1,0 +1,13 @@
+{
+  "name": "Personal website",
+  "description": "A website about personal information ",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+
+  },
+
+  "action": {
+    "default_popup": "personal_website.html"
+  }
+}
